@@ -1,7 +1,4 @@
-﻿// See https://aka.ms/new-console-template for more information
-using System.Drawing;
-
-namespace HttpDemo {
+﻿namespace HttpDemo {
     class BusBoard {
         public static async Task Main() {
             var additionalInformationCategories = await TflClient.GetStopPointAdditionalInformation();
